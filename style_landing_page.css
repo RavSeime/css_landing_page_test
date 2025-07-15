@@ -1,6 +1,9 @@
 
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+}  
 
 .top_black {
     background-color: black;

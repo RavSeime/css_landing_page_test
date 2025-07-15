@@ -51,7 +51,7 @@ body {
   justify-content: space-between;
   gap: 40px;
   width: auto;
-  margin-left: auto /* Cool code to position the last item to the left. Good for when you have items at start and at the end that you want to distribute. No wait did not actually help! Get back to this overlapping problem later!*/
+  margin-left: auto; /* Cool code to position the last item to the left. Good for when you have items at start and at the end that you want to distribute. No wait did not actually help! Get back to this overlapping problem later!*/
 }
 
 .tb_lower {

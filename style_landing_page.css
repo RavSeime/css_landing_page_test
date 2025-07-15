@@ -1,0 +1,16 @@
+
+
+
+
+.top_black {
+    background-color: black;
+    color: rgb(222, 251, 42);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 400px;
+    padding: 40px
+}
+
+.top_black header {
+    margin: 1px;
+}

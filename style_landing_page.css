@@ -1,19 +1,94 @@
 
 
-html, body {
+html, body {  
   margin: 0;
   padding: 0;
 }  
 
+body { 
+  width: auto;
+}
+ 
+
 .top_black {
     background-color: black;
     color: rgb(222, 251, 42);
-    display: flex;
     font-family: 'Roboto', sans-serif;
+    width: auto;
     height: 400px;
-    padding: 40px
+    padding: 40px;
+    gap: 40px;
+    border-width: 15px; /* We add a black border to compensate for the standard white border the browser makes for us, which would look bad on a black website */
+    border-left: 100px;
+    border-right: 100px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.top_black header {
-    margin: 1px;
+.tb_upper {
+    display: flex;
+    height: 70px;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1,1,auto;
+
+}
+
+.tb_upper_logo {
+  height: 70px;
+  font-size: 24px;
+}
+
+.tb_upper_subpages {
+  display: flex;
+  height: 70px;
+  font-size: 18px;
+  color: rgb(207, 235, 23);
+  justify-content: space-between;
+  gap: 40px;
+  width: auto;
+  margin-left: auto /* Cool code to position the last item to the left. Good for when you have items at start and at the end that you want to distribute. No wait did not actually help! Get back to this overlapping problem later!*/
+}
+
+.tb_lower {
+  display: flex;
+  height: 230px;
+  width: auto;
+  flex-direction: column;
+  margin-bottom: auto;
+  flex: 1,1,auto;
+  gap: 10px;
+}
+
+.sample_auto_class {
+  height: 100px;
+  width: 100px;
+  display: flex
+}
+
+.slogan_box {
+  height: 100px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  margin-left: 0;
+}
+
+.sample_auto_class_last {
+  height: auto;
+  width: auto;
+  margin-left: auto;
+}
+
+.slogan_text {
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
